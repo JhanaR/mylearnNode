@@ -1,19 +1,18 @@
-// const http = require("http");
-// const httpServer = http.createServer();
-
 const { createServer } = require("http");
 const { readFile } = require("fs");
 
-const server = createServer((req,res)=>
-readFile("home.html","utf-8",(error,data)=>{
-    if(error) {
-        res.end("Error: " + error.message);
-    }else {
-        res.end(data)
+const server = createServer((req, res) => {
+  //Processing the request
+  readFile("login.html", "utf-8", (error, data) => {
+    if (error) {
+      res.end("{ok:false,error:'Failed to Access Web page'}");
+    } else {
+      res.end(data);
     }
-})
-);
+  });
+});
+//http://localhost:5000
 
-server.listen(5000,()=>{
-    console.log("started in 5000")
-})
+server.listen(5000, () => {
+  console.log("Server started on 5000 Port Number");
+});

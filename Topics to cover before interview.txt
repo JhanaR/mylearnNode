@@ -1,0 +1,25 @@
+1. Node.js Core Fundamentals
+Event-Driven Architecture: EventEmitter eppadi work aagudhu?
+
+Buffers & Streams: Periya files-ah (GB level) crash aagama eppadi handle panradhu?
+
+Global Objects: process, __dirname, __filename.
+
+2. Express.js & Middlewares
+Middleware Pattern: Request vandhu Response poradhukku munaadi enna nadakkudhu? (Auth, Logging).
+
+Restful APIs: Standard-ana API structure eppadi ezhudhuradhu?
+
+Error Handling: Global error handler eppadi set panradhu?
+
+3. Asynchronous Node
+Child Processes & Worker Threads: Node.js single-threaded dhaan, aana heavy calculations-ah eppadi parallel-ah panradhu?
+
+Cluster Module: Multiple CPU cores-ah eppadi use panradhu?
+
+4. Security & Performance
+JWT (JSON Web Tokens): User authentication eppadi secure-ah panradhu?
+
+Environment Variables: .env files and security best practices.
+
+CORS & Helmet: Common-ana web attacks-ah eppadi thadukkuraது?
